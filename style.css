@@ -1,0 +1,65 @@
+
+/* || Top level */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* || Main level*/
+
+/* || Navigation bar */
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.navbar__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar__list a {
+    text-decoration: none;
+}
+
+/* || First Section */
+
+.first-section {
+    display: flex;
+    text-align: left;
+}
+
+/* || Second Section */
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+
+    /*text-align: center;*/
+}
+
+.second-section__list {
+    display:flex;
+    list-style: none;
+
+}
