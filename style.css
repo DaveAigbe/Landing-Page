@@ -54,12 +54,34 @@ main {
 .second-section {
     display: flex;
     flex-direction: column;
-
-    /*text-align: center;*/
+    align-items: center;
+    text-align: center;
 }
 
 .second-section__list {
     display:flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+/* || Third Section */
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.third-section__quote_author {
+    text-align: right;
+}
+
+/* || Fourth Section */
+
+.fourth-section {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
