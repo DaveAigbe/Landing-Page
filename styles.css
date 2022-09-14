@@ -216,6 +216,7 @@ header {
 /* || Footer */
 
 .footer {
+    font-weight: bold;
     color: #005C46;
     width: 100vw;
     height: 80px;
