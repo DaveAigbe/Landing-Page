@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 
-
 * {
     padding: 0;
     margin: 0;
@@ -8,18 +7,12 @@
     font-family: "Roboto", sans-serif;
 }
 
-.GeneratedImage {
-    width: 920px;
-    height: 215px;
-}
-
-
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url("./images/pexels-marina-m-8356200.jpg");
-
+    background-size: 3000px auto;
 }
 
 /* || Header */
@@ -27,7 +20,7 @@ body {
 header {
     width: 100vw;
     padding: 15px;
-    background-color: #1F2937;
+    background-color: #Ab784E;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +28,7 @@ header {
 }
 
 .logo {
-    color: #F9FAF8;
+    color: #005C46;
     font-size: 24px;
 }
 
@@ -46,14 +39,14 @@ header {
 }
 
 .navbar__list a {
-    color: #E5E7EB;
+    color: #205d47;
     font-size: 18px;
     text-decoration: none;
     transition: all 0.3s 0s ease-in-out;
 }
 
 .navbar__list a:hover {
-    color: gray;
+    color: #098a5b;
 }
 
 
@@ -74,19 +67,19 @@ header {
 }
 
 .first-section__text h1 {
-    color: #F9FAF8;
+    color: #005C46;
     font-size: 48px;
     font-weight: 700;
 }
 
 .first-section__text p {
-    color: #E5E7EB;
+    color: #205d47;
     font-size: 18px;
     margin-bottom: 8px;
 }
 
 .first-section__button {
-    background-color: #3882F6;
+    background-color: #Ab784E;
     border: none;
     color: #F9FAF8;
     width: 130px;
@@ -98,17 +91,27 @@ header {
     cursor: pointer;
 }
 
-.first-section__button:hover {
-    background-color: #1b58b2;
+.first-section__img img {
+    width: 920px;
+    height: auto;
 }
 
+.first-section__img {
+    width: 920px;
+    height: 215px;
+    overflow: hidden;
+}
+
+.first-section__button:hover {
+    background-color: #674528;
+}
 
 /* || Second section */
 
 .second-section {
     width: 100vw;
     height: 500px;
-    background-color: #F9FAF8;
+    background-color: #Ab784E;
     padding: 50px 50px 120px;
     display: flex;
     flex-direction: column;
@@ -117,7 +120,7 @@ header {
 }
 
 .second-section__title {
-    color: #1F2937;
+    color: #005C46;
     font-size: 36px;
     font-weight: 700;
 }
@@ -126,7 +129,7 @@ header {
     margin: 0;
     padding: 0;
     list-style: none;
-    color: gray;
+    color: #F9FAF8;
     display: flex;
     gap: 50px;
 }
@@ -145,7 +148,7 @@ header {
 /* || Third section */
 
 .third-section {
-    color: #1F2937;
+    color: #005C46;
     width: 100vw;
     height: 500px;
     display: flex;
@@ -172,7 +175,7 @@ header {
 /* || Fourth section */
 
 .fourth-section {
-    background-color: #F9FAF8;
+    background-color: #Ab784E;
     width: 100vw;
     height: 420px;
     display: flex;
@@ -181,7 +184,7 @@ header {
 }
 
 .fourth-section__container {
-    background-color: #3882F6;
+    background-color: #674528;
     color: #F9FAF8;
     width: 1400px;
     height: 150px;
@@ -206,15 +209,14 @@ header {
 }
 
 .fourth-section__button:hover {
-    color: #1F2937;
-    border-color: #1F2937;
+    color: #005C46;
+    border-color: #005C46;
 }
-
 
 /* || Footer */
 
 .footer {
-    color: #F9FAF8;
+    color: #005C46;
     width: 100vw;
     height: 80px;
     display: flex;
